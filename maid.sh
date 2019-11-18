@@ -58,7 +58,7 @@ function permissions()
     chmod u+x bin/magento
 
     echo "chown .."
-    chown -R :www-data 
+    chown -R :www-data .
     chown -R www-data:www-data var
     chown -R www-data:www-data generated
     chown -R www-data:www-data pub/static
